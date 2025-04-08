@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 5px;
+        }
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .a{background-color: skyblue;}
+        .b{background-color:rgba(220, 20, 60, 0.959);}
+        .c{background-color: blue;}
+        .d{background-color:gold;}
+        .e{background-color: blueviolet;}
+        .f{background-color:limegreen;}
+        .g{background-color: salmon;}
+        .h{background-color: cadetblue;}
+        .i{background-color:maroon;}
+        @media (max-width:658px)
+        {
+            .a{ background-color: hotpink }
+            .b{background-color:rgb(4, 100, 100)}
+            .c{background-color: rgb(255, 132, 91);}
+            .d{background-color:yellowgreen}
+            .e{background-color: rgb(51, 196, 111);}
+            .f{background-color:rgb(150, 5, 77);}
+            .g{background-color:royalblue;}
+            .h{background-color:rgb(255, 207, 117);}
+            .i{background-color:darkgrey;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item a">1.</div>
+        <div class="item b">2.</div>
+        <div class="item c">3.</div>
+        <div class="item d">4.</div>
+        <div class="item e">5.</div>
+        <div class="item f">6.</div>
+        <div class="item g">7.</div>
+        <div class="item h">8.</div>
+        <div class="item i">9.</div>
+    </div>
+</body>
+</html>

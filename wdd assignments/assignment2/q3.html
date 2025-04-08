@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            border: 2px solid black;
+            text-align: center;
+            background-color: burlywood;
+            justify-items: center;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="action.php"><hr>
+        Please enter your name<br>
+        <input type="text" placeholder="Enter Name"><br><hr>
+        Please enter your email<br>
+        <input type="email" id="email" placeholder="Enter Email"><br><hr>
+        Please select your gender<br>
+        <label for="M">
+        <input type="radio"  value="Male" name="gender" id="M">Male<br>
+        </label>
+        <label for="F">
+        <input type="radio"  value="Female" name="gender" id="F">Female<br>
+        </label><hr>
+        Please select your hobby<br>
+        <label for="d">
+        <input type="checkbox" value="Dance" name="hobby" id="d">Dance<br>
+        </label>
+        <label for="s">
+        <input type="checkbox" value="Singing" name="hobby" id="s">Singing<br>
+        </label>
+        <label for="p">
+        <input type="checkbox" value="Painting" name="hobby" id="p">Painting<br>
+        </label>
+        <label for="r">
+        <input type="checkbox" value="Reading" name="hobby" id="r">Reading<br>
+        </label><hr>
+        Please select your State<br>
+        <select name="State">
+            <option value="Gujarat">Gujarat</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Maharashtra">Maharashtra</option>
+        </select><br><hr>
+        Please enter your feedback<br>
+        <textarea name="feedback" id="fb" placeholder="Enter your feedback"></textarea><br><br><hr>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><hr>
+    </form>
+</body>
+</html>
